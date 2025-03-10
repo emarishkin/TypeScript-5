@@ -12,7 +12,7 @@ const Card:FC<CardProps>= ({width,height,backgroundColor,children}) => {
 
     return(
         <div style={{width,height,backgroundColor}}>
-          <h1>Посмотреть пользователей</h1>
+          <h1>Карточка</h1>
           <img src='/components/111.jpg' alt="" />
           {children}
         </div>
